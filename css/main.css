@@ -2791,3 +2791,9 @@ ul.breadcrumb li+li:last-child {
     text-align: justify;
   }
 }
+body {
+  background: url("/images/background.jpg") no-repeat fixed;
+  filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
